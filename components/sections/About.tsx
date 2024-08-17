@@ -1,6 +1,6 @@
 export default function About() {
 	return (
-		<section className='section'>
+		<section id='about' className='section'>
 			<div className='py-32 w-4/5 text-3xl text-pretty'>
 				<p>
 					We provide you with best in class video production services. With more

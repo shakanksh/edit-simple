@@ -1,6 +1,6 @@
 export default function Work() {
 	return (
-		<section>
+		<section id='work'>
 			<div>
 				<p>This is Work section</p>
 			</div>

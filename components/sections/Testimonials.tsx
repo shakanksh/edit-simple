@@ -1,6 +1,6 @@
 export default function Testimonials() {
 	return (
-		<section>
+		<section id='testimonials'>
 			<div>
 				<p>This is Testimonials section</p>
 			</div>

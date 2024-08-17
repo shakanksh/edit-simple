@@ -1,6 +1,6 @@
 export default function Services() {
 	return (
-		<section>
+		<section id='services'>
 			<div>
 				<p>This is Services section</p>
 			</div>
