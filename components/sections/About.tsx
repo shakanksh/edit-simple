@@ -1,4 +1,4 @@
-export default function Featured() {
+export default function About() {
 	return (
 		<section className='section'>
 			<div className='py-32 w-4/5 text-3xl text-pretty'>

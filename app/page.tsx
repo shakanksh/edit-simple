@@ -1,5 +1,5 @@
+import About from "@/components/sections/About";
 import Contact from "@/components/sections/Contact";
-import Featured from "@/components/sections/Featured";
 import Footer from "@/components/sections/Footer";
 import Hero from "@/components/sections/Hero";
 import Navbar from "@/components/sections/Navbar";
@@ -13,7 +13,7 @@ export default function Home() {
 		<main className='flex flex-col min-h-screen font-sans bg-accent-100 text-accent-600'>
 			<Navbar />
 			<Hero />
-			<Featured />
+			<About />
 			<Work />
 			<Services />
 			<Stats />
