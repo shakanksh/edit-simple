@@ -1,4 +1,4 @@
-import CTA from "@/components/sections/CTA";
+import Contact from "@/components/sections/Contact";
 import Featured from "@/components/sections/Featured";
 import Footer from "@/components/sections/Footer";
 import Hero from "@/components/sections/Hero";
@@ -18,7 +18,7 @@ export default function Home() {
 			<Services />
 			<Stats />
 			<Testimonials />
-			<CTA />
+			<Contact />
 			<Footer />
 		</main>
 	);
