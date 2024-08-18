@@ -15,7 +15,7 @@ export default function Calendar() {
 		})();
 	}, []);
 	return (
-		<section id='contact' className='bg-accent-600 py-10'>
+		<section id='contact' className='bg-accent-100 py-10'>
 			<Cal
 				namespace='introduction'
 				calLink='edit-simple/introduction'

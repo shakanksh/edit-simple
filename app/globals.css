@@ -20,3 +20,11 @@ h6 {
 .section {
 	@apply px-8;
 }
+
+.stats-wrapper {
+	@apply inline-grid grid-flow-col auto-cols-auto gap-16 items-start;
+}
+
+.stats-number {
+	@apply w-20 text-right;
+}
