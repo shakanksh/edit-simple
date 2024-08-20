@@ -2,7 +2,7 @@ import Link from "../ui/Link";
 
 export default function Navbar() {
 	return (
-		<header className='px-8 py-6 flex items-center justify-between'>
+		<header className='px-8 py-6 flex items-center justify-between font-medium'>
 			<img src='/logo.svg' alt='logo' className='w-32' />
 			<nav className='flex items-center gap-8'>
 				<Link href='#work'>Work</Link>

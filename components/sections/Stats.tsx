@@ -2,7 +2,7 @@ export default function Stats() {
 	return (
 		<section id='stats' className='section flex flex-col gap-32'>
 			<div className='grid grid-cols-12 gap-8'>
-				<p className='col-start-5 col-end-13 text-xl'>
+				<p className='col-start-5 col-end-13 text-xl font-medium'>
 					Our team boasts a impressive history of delivering high-impact
 					results, leveraging their expertise to build lasting relationships and
 					drive meaningful engagement.

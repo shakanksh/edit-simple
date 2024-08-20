@@ -19,6 +19,9 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: "Edit Simple",
   description: "Your Story, Seamlessly Edited.",
+  icons: {
+    icon: "/favicon.ico",
+  },   
 };
 
 export default function RootLayout({
