@@ -28,3 +28,16 @@ h6 {
 .stats-number {
 	@apply w-20 text-right;
 }
+
+.video-embed {
+	padding: 177.78% 0 0 0;
+	position: relative;
+}
+
+.video-player {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
