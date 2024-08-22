@@ -63,7 +63,7 @@ export default function Stats() {
 					</div>
 				</div>
 			</div> */}
-			<div className='w-full self-end'>
+			<div className='w-full'>
 				{stats.map((stats, key) => (
 					<div key={key} className='w-2/4'>
 						<div className='flex gap-10 items-center'>
