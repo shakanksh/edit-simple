@@ -43,14 +43,22 @@ const services = [
 
 export default function Services() {
 	return (
-		<section id='services' className='section flex flex-col items-end'>
+		<section
+			id='services'
+			className='section flex flex-col items-center md:items-end'>
 			{services.map((services, key) => (
-				<div key={key} className='w-3/5'>
-					<div className='flex gap-10 items-center'>
-						<img src={services.icon} alt={services.alt} className='size-16' />
-						<h2 className='text-5xl tracking-normal'>{services.name}</h2>
+				<div key={key} className='w-full md:w-3/5'>
+					<div className='flex gap-4 md:gap-10 items-center'>
+						<img
+							src={services.icon}
+							alt={services.alt}
+							className='size-12 md:size-16'
+						/>
+						<h2 className='text-4xl md:text-5xl tracking-normal'>
+							{services.name}
+						</h2>
 					</div>
-					<div className='h-[1px] bg-accent-600 w-full my-4' />
+					<div className='h-[1px] bg-accent-600 w-full my-3 md:my-4' />
 				</div>
 			))}
 		</section>

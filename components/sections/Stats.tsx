@@ -27,9 +27,9 @@ const stats = [
 
 export default function Stats() {
 	return (
-		<section id='stats' className='section flex flex-col gap-32'>
+		<section id='stats' className='section flex flex-col gap-20 md:gap-32'>
 			<div className='grid grid-cols-12 gap-8'>
-				<p className='col-start-1 col-end-7 text-xl font-medium'>
+				<p className='col-start-1 col-end-13 md:col-end-7 text-xl font-medium'>
 					Our team boasts a impressive history of delivering high-impact
 					results, leveraging their expertise to build lasting relationships and
 					drive meaningful engagement.
@@ -65,10 +65,12 @@ export default function Stats() {
 			</div> */}
 			<div className='w-full'>
 				{stats.map((stats, key) => (
-					<div key={key} className='w-2/4'>
-						<div className='flex gap-10 items-center'>
-							<h2 className='text-5xl tracking-normal w-24'>{stats.number}</h2>
-							<h2 className='text-5xl tracking-normal'>{stats.name}</h2>
+					<div key={key} className='w-full md:w-2/4'>
+						<div className='flex gap-0 md:gap-10 items-center text-4xl md:text-5xl tracking-normal'>
+							<h2 className='w-24 text-[2.5rem] md:text-5xl leading-10'>
+								{stats.number}
+							</h2>
+							<h2>{stats.name}</h2>
 						</div>
 						<div className='h-[1px] bg-accent-600 w-full my-4' />
 					</div>
