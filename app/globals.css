@@ -18,7 +18,7 @@ h6 {
 }
 
 .section {
-	@apply px-4 md:px-8;
+	@apply px-4 md:px-8 selection:bg-accent-600 selection:text-accent-100;
 }
 
 .stats-wrapper {
@@ -32,6 +32,7 @@ h6 {
 .video-embed {
 	padding: 177.78% 0 0 0;
 	position: relative;
+	display: flex;
 }
 
 .video-player {
