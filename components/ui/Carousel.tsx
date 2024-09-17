@@ -41,21 +41,6 @@ const Carousel: React.FC<PropType> = (props) => {
         <div className="embla__container"> 
             <div className="embla__slide">
               <div className="embla__slide__number">
-                <Elon />
-              </div>
-            </div>
-            <div className="embla__slide">
-              <div className="embla__slide__number">
-                <Logan />
-              </div>
-            </div>
-            <div className="embla__slide">
-              <div className="embla__slide__number">
-                <Stadiums />
-              </div>
-            </div>
-            <div className="embla__slide">
-              <div className="embla__slide__number">
                 <Command />
               </div>
             </div>
@@ -77,6 +62,21 @@ const Carousel: React.FC<PropType> = (props) => {
             <div className="embla__slide">
               <div className="embla__slide__number">
                 <Recipe />
+              </div>
+            </div>
+            <div className="embla__slide">
+              <div className="embla__slide__number">
+                <Elon />
+              </div>
+            </div>
+            <div className="embla__slide">
+              <div className="embla__slide__number">
+                <Logan />
+              </div>
+            </div>
+            <div className="embla__slide">
+              <div className="embla__slide__number">
+                <Stadiums />
               </div>
             </div>
         </div>
