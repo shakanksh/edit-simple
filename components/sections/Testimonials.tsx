@@ -16,7 +16,7 @@ export default function Testimonials({
 	return (
 		<section
 			id='testimonials'
-			className='section w-full flex justify-center items-center py-52'>
+			className='section w-full flex justify-center items-center py-52 my-20 md:my-32'>
 			<div className='flex flex-col gap-5 text-2xl md:text-3xl items-center justify-center w-11/12 md:w-4/5'>
 				<p className='font-medium'>"{children}"</p>
 				<div className='font-semibold self-end'>

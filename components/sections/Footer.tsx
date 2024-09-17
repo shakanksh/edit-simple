@@ -22,11 +22,13 @@ export default function Footer() {
 					<div className='flex flex-col gap-6 md:col-start-3 md:col-span-2'>
 						<h5 className='text-2xl tracking-normal'>Sitemap</h5>
 						<div className='flex flex-col gap-1'>
+							<Link href='#about'>About Us</Link>
 							<Link href='#work'>Work</Link>
 							<Link href='#services'>Services</Link>
-							<Link href='#testimonials'>Testimonials</Link>
-							<Link href='/blog'>Blog</Link>
+							<Link href='#stats'>Statistics</Link>
+							{/* <Link href='/blog'>Blog</Link> */}
 							<Link href='#contact'>Contact</Link>
+							<Link href='#top'>Back to Top</Link>
 						</div>
 					</div>
 					<div className='flex flex-col gap-6 col-span-2 md:col-start-5 md:col-span-3'>
